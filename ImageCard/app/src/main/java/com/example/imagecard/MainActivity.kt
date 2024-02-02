@@ -93,7 +93,14 @@ fun ImageCard(
                     .padding(12.dp),
                 contentAlignment = Alignment.BottomStart
             ) {
-                Text(text = title, style = TextStyle(color = Color.White, fontSize = 16.sp, textAlign = TextAlign.End))
+                Text(
+                    text = title,
+                    style = TextStyle(
+                        color = Color.White,
+                        fontSize = 16.sp,
+                        textAlign = TextAlign.End
+                    )
+                )
             }
         }
     }
